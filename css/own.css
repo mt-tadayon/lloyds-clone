@@ -1,12 +1,33 @@
-.main-menu{
-  margin-right: auto;
-  margin-left: auto;
+.menu-container {
+  margin: 0 auto;
   max-width: 980px;
-  max-height: 63px;
-  padding-right: 10px;
-  padding-left: 10px;
 }
 
-.main-menu ul{
+.navbar-brand {
+  background-color: black;
+  color: white;
+  font-family: 'NHaasGroteskTXStd-55Rg';
+  font-size: 14px;
+}
 
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {
+  color: white;
+}
+
+.navbar-nav {
+  font-family: 'NHaasGroteskTXStd-55Rg';
+  font-size: 12px;
+  border-bottom: 1px solid lightgray;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.search-container{
+  border-bottom: 1px solid  black;
 }
