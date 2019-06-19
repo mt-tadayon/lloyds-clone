@@ -1,33 +1,110 @@
-.menu-container {
+*{
+  font-family: 'NHaasGroteskTXPro-55Rg', Helvetica, Arial, sans-serif;
+}
+.menu-container, .menu-dropdown {
   margin: 0 auto;
   max-width: 980px;
 }
 
-.navbar-brand {
+.main-menu{
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.navbar-nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-menu-brand  {
   background-color: black;
   color: white;
-  font-family: 'NHaasGroteskTXStd-55Rg';
-  font-size: 14px;
+  font-size: 18px;
+  padding: 6px 8px;
 }
 
-.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {
+.navbar-light .main-menu-brand , .navbar-light .main-menu-brand:hover {
   color: white;
 }
 
-.navbar-nav {
-  font-family: 'NHaasGroteskTXStd-55Rg';
+.main-menu-bar {
   font-size: 12px;
   border-bottom: 1px solid lightgray;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .main-menu-bar .nav-link:hover {
   text-decoration: underline;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .main-menu-bar .nav-link {
   color: black;
 }
 
 .search-container{
   border-bottom: 1px solid  black;
+  font-size: 14px;
+  background-color: lightgray;
+}
+
+.search-container input, .search-container button{
+  border: none;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.search-container input:focus, .search-container button:focus{
+  outline: none;
+}
+
+.own-dropdown-btn:hover .own-dropdown-items{
+  display: block;
+}
+
+.menu-dropdown{
+  background-color: #282f54;
+}
+
+.navbar-dropdown .navbar-nav .own-dropdown-menu{
+  color: white;
+}
+
+.menu-name{
+  border-bottom: 1px solid black;
+}
+
+.header-section{
+  background-color: #f1f1f1;
+  padding: 0 230px 28px 230px;
+}
+
+.header, .header-text, .general-text{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.header h1{
+  font-size: 48px;
+}
+
+.general-text, .first-section, .second-section{
+  padding: 0 230px 28px 230px;
+}
+
+.first-section, .second-section{
+  display: flex;
+}
+
+.column-image{
+  flex: 25%;
+  padding: 5px;
+}
+
+.column{
+  flex: 75%;
+  padding: 5px;
+}
+
+.display-image{
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.5);
 }
