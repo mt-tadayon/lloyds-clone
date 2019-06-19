@@ -11,6 +11,7 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
+  <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -31,10 +32,10 @@
 
 <!-- Add your site or application content here -->
 <div class="menu-container">
-  <nav class="navbar navbar-expand-lg navbar-light" role="navigation">
-    <a class="navbar-brand" href="https://www.lloyds.com">LLOYD'S</a>
+  <nav class="main-menu navbar navbar-expand-lg navbar-light" role="navigation">
+    <a class="main-menu-brand navbar-brand" href="https://www.lloyds.com">LLOYD'S</a>
     <div class="collapse navbar-collapse">
-      <ul class="navbar-nav justify-content-center">
+      <ul class="main-menu-bar navbar-nav justify-content-center">
         <li class="nav-item"><a class="nav-link" href="https://www.lloyds.com/about-lloyds">About</a></li>
         <li class="nav-item"><a class="nav-link" href="https://www.lloyds.com/about-lloyds/value_proposition_broker">Brokers</a>
         </li>
@@ -51,20 +52,172 @@
         <li class="nav-item"><a class="nav-link" href="https://www.lloyds.com/contact-us">Login/Register</a></li>
         <form class="search-container">
           <input type="text" PLACEHOLDER="Search" name="search">
-          <button name="submit"><i class="fas fa-search"></i></button>
+          <button type="submit"><i class="fa fa-search"></i></button>
         </form>
       </ul>
 
     </div>
   </nav>
+</div>
 
-  <div class="power-menu"></div>
+<div class="menu-dropdown">
+  <nav class="navbar-dropdown navbar navbar-expand-lg navbar-light">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="own-dropdown-btn nav-item dropdown"><a class="own-dropdown-menu nav-link"
+                                                        href="https://www.lloyds.com/news-and-risk-insight"
+                                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">News
+        and risk insight</a>
+        <div class="own-dropdown-items dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="menu-name">News and risk insight</div>
+          <a class="own-dropdown-item own-dropdown-item dropdown-item" href="#">Press releases</a>
+          <a class="own-dropdown-item dropdown-item" href="#">News</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Risk reports</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Events</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Lloyd's subsidiary iin Business</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Lloyd's Lab</a>
+          <a class="own-dropdown-item dropdown-item" href="#">City Risk Index</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Consumer alerts</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Media centre</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Future at Lloyd's</a>
+        </div>
+      </li>
+      <li class="own-dropdown-btn nav-item dropdown"><a class="own-dropdown-menu nav-link"
+                                                        href="https://www.lloyds.com/market-directory"
+                                                        role="button" data-toggle="dropdown"
+                                                        aria-haspopup="true"
+                                                        aria-expanded="false">Market directory</a>
+        <div class="own-dropdown-items dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="own-dropdown-item dropdown-item" href="#">Brokers</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Coverholders</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Managing agents</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Member's agents</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Open Market Correspondets</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Run off brokers</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Committees and associations</a>
+        </div>
+      </li>
+      <li class="own-dropdown-btn nav-item dropdown"><a class="own-dropdown-menu nav-link"
+                                                        href="https://www.lloyds.com/market-resources"
+                                                        role="button" data-toggle="dropdown"
+                                                        aria-haspopup="true"
+                                                        aria-expanded="false">Market resources</a>
+        <div class="own-dropdown-items dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="own-dropdown-item dropdown-item" href="#">Capital and reserving</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Claims</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Complaints</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Data and research</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Delegated Authorities</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Finance and investment</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Lloyd's Agency</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Market communications</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Market services</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Professional development</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Regulatory</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Requirements and standards</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Tax</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Underwriting</a>
+        </div>
+      </li>
+      <li class="own-dropdown-btn nav-item dropdown"><a class="own-dropdown-menu nav-link"
+                                                        href="https://www.lloyds.com/tools-and-systems"
+                                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">Tools and
+        systems</a>
+        <div class="own-dropdown-items dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="own-dropdown-item dropdown-item" href="#">AiMS</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Atlas</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Binding Authority Registration</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Business timetable</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Chorus</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Core Market Returns</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Crystal</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Doprint</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Funds at Lloyd's</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Lineage</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Lloyd's wordings repository</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Member modelling software</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Mocha</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Quality assurance tools</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Risk locator</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Secure store</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Workbench</a>
+        </div>
+      </li>
+      <li class="own-dropdown-btn nav-item dropdown"><a class="own-dropdown-menu nav-link"
+                                                        href="https://www.lloyds.com/lloyds-around-the-world"
+                                                        id="navbarDropdown"
+                                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">Lloyd's
+        around
+        the world</a>
+        <div class="own-dropdown-items dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="own-dropdown-item dropdown-item" href="#">Africa & Middle-East</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Americas</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Asia & Pacific</a>
+          <a class="own-dropdown-item dropdown-item" href="#">Europe</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</div>
 </div>
 <div class=wrapper">
-  <section class="header-section"></section>
-  <section class="general-text"></section>
-  <section class="first-download"></section>
-  <section class="second-download"></section>
+  <section class="header-section">
+    <div class="header">
+      <h1>Taking control</h1>
+    </div>
+    <div class="header-text">
+      <p>How artificial intelligence and robots create new risks and opportunities for insurance and society</p>
+    </div>
+  </section>
+  <section class="general-text">
+    <p></p>
+
+    <p>As the world becomes increasingly automated, it is forcing underwriters to adapt and navigate a new risk
+      environment. Meanwhile insurers are leveraging the potential of AI themselves to remain competitive, improve
+      processes and increase efficiency. Lloyd’s have commissioned two reports in collaboration with the University of
+      Surrey that explore these trends in more detail.</p>
+
+    <p>“Taking control: artificial intelligence and insurance” analyses the associated risks of AI implementation as
+      well
+      as the potential for AI to help insurers improve their operations and develop new products. Building on this,
+      “Taking control: robots and risk” investigates the impact “collaborative robots” (or cobots) on the economy, and
+      the subsequent risks implications for the insurance industry.</p>
+
+    <p></p>
+  </section>
+  <section class="first-section">
+    <div class="column-image">
+      <img class="display-image" src="assets/img/download_first.png" alt="first download">
+    </div>
+    <div class="column">
+      <h3>Taking control: artificial intelligence and insurance</h3>
+      <p>This report identifies four risks areas for AI: trust and transparency, ethics, security and safety. It
+        highlights that as artificial intelligence systems become more complex, cyber breaches are likely to have an
+        even
+        greater impact. The report also explores new business opportunities for insurers from developing new products
+        for
+        companies using the AI to applying the technology to improve insurance processes and deliver better value. </p>
+      <button type="button" name="downlod-button">Download</button>
+    </div>
+  </section>
+  <section class="second-section">
+    <div class="column-image">
+      <img class="display-image" src="assets/img/download_second.png" alt="first download">
+    </div>
+    <div class="column">
+      <h3>Taking control: robots and risk</h3>
+      <p>In the future millions of jobs could be taken over by increasingly sophisticated robots or cobots
+        (“collaborative robots”), according to various predictions. This report explores robotics potential to
+        significantly change the risk landscape in many parts of the economy, including: manufacturing, agriculture,
+        healthcare and retail. It also explores the opportunity for insurers to collaborate with clients as data from
+        cobots will provide a much greater understanding of risk and offer opportunities for improved risks and pricing
+        models. </p>
+      <button type="button" name="downlod-button">Download</button>
+    </div>
+  </section>
 </div>
 
 <script src="js/vendor/modernizr-3.7.1.min.js"></script>
