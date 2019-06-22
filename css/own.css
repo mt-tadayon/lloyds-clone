@@ -1,36 +1,48 @@
-*{
+* {
   font-family: 'NHaasGroteskTXPro-55Rg', Helvetica, Arial, sans-serif;
 }
-.menu-container, .menu-dropdown {
+
+.menu-container, .dropdown-navbar {
   margin: 0 auto;
   max-width: 980px;
 }
 
-.main-menu{
+.main-menu {
   padding: 0;
   margin-bottom: 24px;
 }
 
-.navbar-nav{
+.navbar-nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.main-menu-brand  {
+.main-menu-brand {
   background-color: black;
   color: white;
   font-size: 18px;
   padding: 6px 8px;
 }
 
-.navbar-light .main-menu-brand , .navbar-light .main-menu-brand:hover {
+.navbar-light .main-menu-brand, .navbar-light .main-menu-brand:hover {
   color: white;
 }
 
 .main-menu-bar {
   font-size: 12px;
   border-bottom: 1px solid lightgray;
+}
+
+.main-menu-bar span {
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+
+.main-menu-bar .last-child-without-border {
+  border: none;
+  padding: 0;
 }
 
 .navbar-light .main-menu-bar .nav-link:hover {
@@ -41,70 +53,134 @@
   color: black;
 }
 
-.search-container{
-  border-bottom: 1px solid  black;
+.search-container {
+  border-bottom: 1px solid black;
   font-size: 14px;
-  background-color: lightgray;
+  background-color: #f1f1f1;
+  display: flex;
 }
 
-.search-container input, .search-container button{
+.search-container input {
+  width: 100px;
+}
+
+.search-container label{
+  margin-bottom: 0;
+}
+
+.search-container input, .search-container button {
   border: none;
   padding: 5px;
-  background-color: lightgray;
+  background-color: #f1f1f1;
 }
 
-.search-container input:focus, .search-container button:focus{
+.search-container input:focus, .search-container button:focus {
   outline: none;
 }
 
-.own-dropdown-btn:hover .own-dropdown-items{
-  display: block;
+.breadcrumb {
+  margin-bottom: 0;
+  background-color: transparent;
 }
 
-.menu-dropdown{
-  background-color: #282f54;
+.own-breadcrumb-item, .own-breadcrumb-item a {
+  color: #909090;
+  text-decoration: none;
 }
 
-.navbar-dropdown .navbar-nav .own-dropdown-menu{
-  color: white;
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
 }
 
-.menu-name{
-  border-bottom: 1px solid black;
-}
-
-.header-section{
+.header-section {
   background-color: #f1f1f1;
   padding: 0 230px 28px 230px;
 }
 
-.header, .header-text, .general-text{
+.header, .header-text, .general-text, nav .breadcrumb {
   padding-bottom: 10px;
   padding-top: 10px;
 }
 
-.header h1{
+.header h1 {
   font-size: 48px;
 }
 
-.general-text, .first-section, .second-section{
+.general-text, .first-section, .second-section, .footer {
   padding: 0 230px 28px 230px;
 }
 
-.first-section, .second-section{
+.first-section, .second-section {
   display: flex;
 }
 
-.column-image{
+.column-image {
   flex: 25%;
   padding: 5px;
 }
 
-.column{
+.section-column {
   flex: 75%;
   padding: 5px;
 }
 
-.display-image{
+.display-image {
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.5);
+}
+
+.section-column button{
+  background-color: #0a4bb7;
+  color: white;
+  padding: 12px;
+}
+
+.footer {
+  background-color: black;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.horizontal-list, .social-meida-list {
+  padding-left: 0;
+  padding-bottom: 10px;
+}
+
+.horizontal-list li {
+  display: inline-flex;
+  color: white;
+}
+
+.horizontal-list li:not(:last-child):after {
+  content: "|";
+  float: right;
+  padding-left: 10px;
+  color: white;
+}
+
+.footer-text {
+  color: white;
+}
+
+.social-meida-list {
+  font-size: 25px;
+}
+
+.social-meida-list a:hover {
+  text-decoration: none;
+}
+
+.own-twitter, .own-twitter:hover {
+  color: #38A1F3;
+}
+
+.own-linkedin, .own-linkedin:hover {
+  color: #0077B5;
+}
+
+.own-facebook, .own-facebook:hover {
+  color: #3b5998;
+}
+
+.own-youtube, .own-youtube:hover {
+  color: #ff0000;
 }
