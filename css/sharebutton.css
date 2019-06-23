@@ -1,0 +1,46 @@
+.share-text{
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.share-icon, .share-text{
+  color: #0c4ab5;
+}
+
+.social-media-icons {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 180px;
+  background-color: black;
+  text-align: center;
+}
+
+.social-media-icons a{
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.social-media-icons a:hover{
+  text-decoration: none;
+}
+
+.social-media-share{
+  width: 100px;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.after-click-media-share{
+  background-color: black;
+  color: white;
+}
+
+.after-click-media-share i, .after-click-media-share span{
+  color: white;
+}
+
+.social-media-icons{
+  display: none;
+}

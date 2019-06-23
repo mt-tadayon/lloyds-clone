@@ -4,6 +4,6 @@
   font-weight: 300;
   font-display:swap;
   src: local('NHaasGroteskTXPro 55Rg'), local('NHaasGroteskTXPro-55Rg'),
-  url(/assets/fonts/NHaasGroteskTXStd-55Rg.woff2) format('woff2'),
-  url(/assets/fonts/NHaasGroteskTXStd-55Rg.woff) format('woff');
+  url(../assets/fonts/NHaasGroteskTXStd-55Rg.woff) format('woff');
+  url(../assets/fonts/NHaasGroteskTXStd-55Rg.woff2) format('woff2'),
 }

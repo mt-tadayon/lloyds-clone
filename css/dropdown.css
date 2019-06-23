@@ -58,7 +58,7 @@ body {
 .dropdown-content .header {
   color: black;
   border-bottom: 1px solid #262626;
-
+  margin-top: 8px;
 }
 
 .dropdown-element:hover .dropdown-content {
