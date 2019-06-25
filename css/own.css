@@ -85,6 +85,7 @@
 .breadcrumb {
   margin-bottom: 0;
   background-color: transparent;
+  padding: 10px 0 10px 0;
 }
 
 .header-text p {
@@ -94,6 +95,7 @@
 .own-breadcrumb-item, .own-breadcrumb-item a {
   color: #909090;
   text-decoration: none;
+  font-size: 14px;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -102,10 +104,9 @@
 
 .header-section {
   background-color: #f1f1f1;
-  padding: 0 230px 28px 230px;
 }
 
-.header, .header-text, .general-text, nav .breadcrumb {
+.header, .header-text, .general-text, nav {
   padding-bottom: 10px;
   padding-top: 10px;
 }
@@ -115,8 +116,13 @@
   font-weight: bold;
 }
 
-.general-text, .first-section, .second-section, .footer {
-  padding: 0 230px 28px 230px;
+.breadcrumb, .header, .header-text, .social-media-header, .general-text, .first-section, .second-section {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.general-text, .header-section, .first-section, .second-section, .footer {
+  padding: 0 0 28px 0;
   font-size: 14px;
 }
 
@@ -155,12 +161,17 @@
   padding-top: 20px;
 }
 
+.horizontal-list, .social-meida-list, .footer-text {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 .horizontal-list, .social-meida-list {
   padding-left: 0;
   padding-bottom: 10px;
 }
 
-.horizontal-list a{
+.horizontal-list a {
   color: white;
 }
 

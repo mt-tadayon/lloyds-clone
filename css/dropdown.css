@@ -41,7 +41,6 @@ body {
   display: none;
   position: absolute;
   width: 100%;
-  left: 230px;
   z-index: 2;
   margin-top: 36px;
   background-color: #f1f1f1;
@@ -81,7 +80,7 @@ body {
   text-align: left;
 }
 
-.dropdown-column a:hover{
+.dropdown-column a:hover {
   text-decoration: underline;
 }
 
@@ -108,6 +107,7 @@ body {
   background: #dfe0e6;
   border-top: 1px solid #282f54;
 }
+
 .active-link:visited {
 
 }
@@ -115,6 +115,7 @@ body {
 .active-link:hover {
   color: black;
 }
+
 .active-link {
   color: #282f54;
 }
