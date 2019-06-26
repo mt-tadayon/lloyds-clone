@@ -121,9 +121,13 @@
   margin: 0 auto;
 }
 
-.general-text, .header-section, .first-section, .second-section, .footer {
+.general-text, .header-section, .footer {
   padding: 0 0 28px 0;
   font-size: 14px;
+}
+
+.first-section, .second-section{
+  padding: 28px 14px 28px 14px;
 }
 
 .first-section, .second-section {
