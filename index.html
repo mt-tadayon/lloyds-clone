@@ -34,9 +34,12 @@
 
 <!-- Add your site or application content here -->
 <div class="menu-container">
-  <nav class="main-menu navbar navbar-expand-lg navbar-light" role="navigation">
+  <nav class="navbar navbar-expand-lg navbar-light main-menu " role="navigation">
     <a class="main-menu-brand navbar-brand" href="https://www.lloyds.com">LLOYD'S</a>
-    <div class="collapse navbar-collapse">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="main-menu-bar navbar-nav justify-content-center">
         <li class="nav-item"><a class="nav-link" href="https://www.lloyds.com/about-lloyds"><span>About</span></a></li>
 
@@ -58,7 +61,7 @@
         <li class="nav-item"><a class="nav-link" href="https://www.lloyds.com/contact-us"><span
           class="last-child-without-border">Login/Register</span></a></li>
       </ul>
-      <form class="search-container">
+      <form class="search-container" id="formSearch" onsubmit="return searchWebsite()">
         <label>
           <input type="text" placeholder="Search" name="search">
         </label>

@@ -9,3 +9,8 @@ function shareMedia() {
     afterClickShare.classList.remove('after-click-media-share');
   }
 }
+
+function searchWebsite() {
+  window.location.replace("https://www.lloyds.com/Search?q=");
+  return false;
+}
