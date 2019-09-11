@@ -165,12 +165,12 @@
   padding-top: 20px;
 }
 
-.horizontal-list, .social-meida-list, .footer-text {
+.horizontal-list, .social-media-list, .footer-text {
   max-width: 980px;
   margin: 0 auto;
 }
 
-.horizontal-list, .social-meida-list {
+.horizontal-list, .social-media-list {
   padding-left: 0;
   padding-bottom: 10px;
 }
@@ -195,11 +195,11 @@
   color: white;
 }
 
-.social-meida-list {
+.social-media-list {
   font-size: 25px;
 }
 
-.social-meida-list a:hover {
+.social-media-list a:hover {
   text-decoration: none;
 }
 
